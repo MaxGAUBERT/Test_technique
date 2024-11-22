@@ -22,11 +22,12 @@ def return_even_numbers():
         elif (i%2==0 and maximum < 9):
             # stocker le résultat sous forme d'une string qui est l'erreur à afficher 
             strResult = "Veuillez entrer une valeur maximale supérieure à 9"
-
+    
+    #afficher le résultat
     print(strResult)
 
 
-
+# appeler la fonction
 return_even_numbers()
 
 
